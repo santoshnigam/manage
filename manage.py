@@ -58,7 +58,7 @@ SUPABASE_KEY=sb_secret_yX_7M4BIzSPL3NYs4Y62wQ_Qz7_GRwG
 try:
 
     supabase: Client = create_client(
-        SUPABASE_URL=https://uxsgnyakxvbslsxuujup.supabase.co/rest/v1/,
+        SUPABASE_URL=https://uxsgnyakxvbslsxuujup.supabase.co
         SUPABASE_KEY=sb_secret_yX_7M4BIzSPL3NYs4Y62wQ_Qz7_GRwG
 
     )

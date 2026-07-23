@@ -43,8 +43,8 @@ if not SUPABASE_URL or not SUPABASE_KEY:
 
     st.code(
         """
-SUPABASE_URL=https://uxsgnyakxvbslsxuujup.supabase.co
-SUPABASE_KEY=sb_secret_yX_7M4BIzSPL3NYs4Y62wQ_Qz7_GRwG
+SUPABASE_URL="https://uxsgnyakxvbslsxuujup.supabase.co"
+SUPABASE_KEY="sb_secret_yX_7M4BIzSPL3NYs4Y62wQ_Qz7_GRwG"
         """
     )
 
@@ -58,8 +58,8 @@ SUPABASE_KEY=sb_secret_yX_7M4BIzSPL3NYs4Y62wQ_Qz7_GRwG
 try:
 
     supabase: Client = create_client(
-        SUPABASE_URL=https://uxsgnyakxvbslsxuujup.supabase.co
-        SUPABASE_KEY=sb_secret_yX_7M4BIzSPL3NYs4Y62wQ_Qz7_GRwG
+        SUPABASE_URL="https://uxsgnyakxvbslsxuujup.supabase.co"
+        SUPABASE_KEY="sb_secret_yX_7M4BIzSPL3NYs4Y62wQ_Qz7_GRwG"
 
     )
 
